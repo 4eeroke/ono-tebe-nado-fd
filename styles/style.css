@@ -125,16 +125,21 @@ body {
 }
 
 .display-text_first {
+    padding-top: 9px;
     width: 100%;
     text-align: start;
 }
 
 .display-text_second {
+    margin-left: 14px;
+    padding-top: 6px;
     width: 100%;
     text-align: center;
 }
 
 .display-text_third {
+    margin-top: 14px;
+    margin-left: 29px;
     width: 100%;
     text-align: end;
 }
@@ -342,7 +347,7 @@ body {
 
 .footer {
     display: flex;
-    padding: 80px 50px 40px 50px;
+    padding: 80px 50px 80px 50px;
     justify-content: space-between;
 }
 
