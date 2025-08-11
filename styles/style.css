@@ -152,13 +152,13 @@ body {
 }
 
 .description-subline {
-    width: 100%;
+    padding-top: 4px;
+    word-spacing: 19px;
     color: #FFF;
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: 28px;
-    width: 637px;
     text-transform: uppercase;
 }
 
@@ -211,6 +211,7 @@ body {
 
 .lots__card-list {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 24px;
     align-self: stretch;
@@ -232,9 +233,11 @@ body {
 }
 
 .lots__card {
+    max-width: 334px;
     width: 100%;
     position: relative;
     background-size: cover;
+    background-position: center;
 }
 
 .lots__card_start {
@@ -358,6 +361,7 @@ body {
 .links-list_footer {
     flex-direction: column;
     gap: 0;
+    margin-right: 20px;
 }
 
 .links-list_footer .links-list-item {
