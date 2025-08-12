@@ -124,23 +124,24 @@ body {
     justify-content: center;
 }
 
-.display-text_first {
-    padding-top: 9px;
+.aligned-text {
     width: 100%;
+}
+
+.align_start {
+    margin-top: 6px;
     text-align: start;
 }
 
-.display-text_second {
-    margin-left: 14px;
-    padding-top: 6px;
-    width: 100%;
+.align_mid {
+    margin-left: 16px;
+    padding-top: 9px;
     text-align: center;
 }
 
-.display-text_third {
-    margin-top: 14px;
-    margin-left: 29px;
-    width: 100%;
+.align_end {
+    margin-top: 10px;
+    margin-left: 31px;
     text-align: end;
 }
 
